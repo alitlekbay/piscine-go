@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mtrp
+ls -mtp | sed 's/, /,/g'
