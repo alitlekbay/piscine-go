@@ -1,3 +1,3 @@
 #!/bin/bash
-username=$(whoami)
+username=$(git config user.name)
 echo "Hello" $username!
