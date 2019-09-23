@@ -1,3 +1,2 @@
 #!/bin/bash
-username=$(git config user.name)
-echo "Hello" $username!
+echo "Hello" `git config user.name`!
