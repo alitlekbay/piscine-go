@@ -31,7 +31,7 @@ func PrintComb2() {
 	for i := 0; i <= 9; i++ {
 		for j := 0; j <= 9; j++ {
 			for l := 0; l <= 9; l++ {
-				for m := j + 1; m <= 9; m++ {
+				for m := 0; m <= 9; m++ {
 					if i == 9 && j == 8 && l == 9 && m == 9 {
 						z01.PrintRune(formatint(i))
 						z01.PrintRune(formatint(j))
@@ -39,6 +39,7 @@ func PrintComb2() {
 						z01.PrintRune(formatint(l))
 						z01.PrintRune(formatint(m))
 						z01.PrintRune(10)
+						return
 					} else {
 						z01.PrintRune(formatint(i))
 						z01.PrintRune(formatint(j))
