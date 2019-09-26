@@ -8,8 +8,8 @@ func StrRev(s string) string {
 		count++
 	}
 
+	resstr := []byte(s)
 	i := 0
-	resstr := make([]byte, count)
 	count--
 	for num := count; num >= 0; num-- {
 		resstr[i] = newStr[num]
