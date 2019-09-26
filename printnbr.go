@@ -1,8 +1,10 @@
 package piscine
 
+import "fmt"
 import "github.com/01-edu/z01"
 
 func PrintIt(n int) rune {
+	// fmt.Println("=>",n)
 	if n == 1 {
 		return ('1')
 	} else if n == 2 {
@@ -26,6 +28,11 @@ func PrintIt(n int) rune {
 }
 
 func PrintNbr(n int) {
+	if n > 2147483647 {
+		return
+	} else if n < -2147483648 {
+		return
+	}
 	if n == 0 {
 		z01.PrintRune('0')
 		return
@@ -34,6 +41,7 @@ func PrintNbr(n int) {
 		z01.PrintRune('-')
 		n = n*-1
 	}
+	fmt.Println("now->", n)
 	if n >= 10 {
 		PrintNbr(n/10)
 	}
