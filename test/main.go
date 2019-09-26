@@ -6,7 +6,9 @@ import (
 )
 
 func main() {
-	str := "Hello World!"
-	nb := piscine.StrLen(str)
-	fmt.Println(nb)
+	a := 0
+	b := 1
+	piscine.Swap(&a, &b)
+	fmt.Println(a)
+	fmt.Println(b)
 }
