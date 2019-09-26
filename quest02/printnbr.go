@@ -26,14 +26,17 @@ func PrintIt(n int) rune {
 }
 
 func PrintNbr(n int) {
+	var val int64
+
 	if n == 0 {
 		z01.PrintRune('0')
 		return
 	}
 	if n < 0 {
 		z01.PrintRune('-')
-		n = n*-1
+		n = n * -1
 	}
+
 	if n >= 10 {
 		PrintNbr(n/10)
 	}
