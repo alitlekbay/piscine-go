@@ -8,7 +8,7 @@ import (
 func main() {
 	s := "12345"
 	s2 := "0000000012345"
-	s3 := "000000"
+	s3 := "Hello World!"
 
 	n := piscine.BasicAtoi(s)
 	n2 := piscine.BasicAtoi(s2)
