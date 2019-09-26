@@ -23,7 +23,7 @@ func toInt(n byte) int {
 	return 0
 }
 
-func BasicAtoi(s string) int {
+func BasicAtoi2(s string) int {
 	
 	newstr := []byte(s)
 	count := 0
