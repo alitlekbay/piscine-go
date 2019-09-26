@@ -33,7 +33,7 @@ func BasicAtoi2(s string) int {
 
 	result := 0
 	for i := 0; i < count; i++ {
-		if newstr[i] < '0' && newstr[i] > '9' {
+		if newstr[i] < '0' || newstr[i] > '9' {
 			return 0
 		}
 		result = result * 10 + toInt((newstr[i]) - '0')
