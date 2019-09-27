@@ -6,8 +6,7 @@ import (
 )
 
 func main() {
-    for i:=1;i<999999999;i++ {
-		piscine.RecursiveFactorial(i)
-    	fmt.Println(i, piscine.RecursiveFactorial(i))
-	}
+    arg1 := 4
+	arg2 := 3
+	fmt.Println(piscine.IterativePower(arg1, arg2))
 }
