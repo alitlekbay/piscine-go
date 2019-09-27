@@ -1,10 +1,3 @@
-/*
-* @Author: Tlekbai Ali
-* @Date:   2019-09-23 10:55:09
-* @Last Modified by:   Tlekbai Ali
-* @Last Modified time: 2019-09-23 11:43:22
-*/
-
 package piscine
 
 import "github.com/01-edu/z01"
