@@ -7,6 +7,7 @@ import (
 
 func main() {
      for i:=1;i<101;i++ {
-          fmt.Println(i, piscine.IterativeFactorial(i))
+		// piscine.RecursiveFactorial(i)
+    	fmt.Println(i, piscine.RecursiveFactorial(i))
 	  }
 }
