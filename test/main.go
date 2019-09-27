@@ -8,12 +8,12 @@ import (
 func main() {
     arg1 := 4
 	arg2 := 3
-	fmt.Println(piscine.IterativePower(arg1, arg2))
+	fmt.Println(piscine.RecursivePower(arg1, arg2))
 
-	fmt.Println(piscine.IterativePower(-1, 2))
-	fmt.Println(piscine.IterativePower(-1, 8))
-	fmt.Println(piscine.IterativePower(-4, 4))
-	fmt.Println(piscine.IterativePower(-7, 7))
+	fmt.Println(piscine.RecursivePower(-1, 2))
+	fmt.Println(piscine.RecursivePower(-1, 8))
+	fmt.Println(piscine.RecursivePower(-4, 4))
+	fmt.Println(piscine.RecursivePower(-7, 7))
 
 	// IterativePower(-7, 7) == 1 instead of -823543
     // IterativePower(-3, 4) == 1 instead of 81
