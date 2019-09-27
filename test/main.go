@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-     arg := 4
-     fmt.Println(piscine.IterativeFactorial(arg))
+     for i:=1;i<101;i++ {
+          fmt.Println(i, piscine.IterativeFactorial(i))
+	  }
 }
