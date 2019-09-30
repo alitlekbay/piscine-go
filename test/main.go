@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// fmt.Println(strconv.Atoi("1234"))
-	s := "12345"
+	s := ""
 	s2 := "0000000012345"
 	s3 := "012 345"
 	s4 := "Hello World!"

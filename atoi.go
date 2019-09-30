@@ -44,6 +44,9 @@ func Atoi(s string) int {
 	res := 0
 	sign := 1
 
+	if StrLen(s) == 0 {
+		return 0
+	}
 	if s[0] == 0 {
 		return 0
 	}
