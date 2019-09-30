@@ -14,6 +14,9 @@ func Index(s string, toFind string) int {
 	match := -1
 	lol := []rune(toFind)
 	for k, val := range s {
+		if k == StrLen(s) {
+			break
+		}
 		if val == lol[0] {
 			match = k
 		} else {
