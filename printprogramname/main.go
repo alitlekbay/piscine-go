@@ -2,9 +2,15 @@ package main
 
 import (
 	"os"
-	"fmt"
 )
 
+func PrintString(s string) {
+	str := []rune(s)
+	for _, val := range str {
+		z01.PrintRune(val)
+	}
+}
+
 func main() {
-	fmt.Println(os.Args[0])
+	PrintString(os.Args[0])
 }
